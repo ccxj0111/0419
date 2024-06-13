@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+	flex: 1;
+	background-color: #FFFECA;
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+}
+.flex-container .flex-item ul {
+	text-align: left;
+	font-size: 16px;
+}
+.flex-item ul p {
+	color: #49090A;
+	font-size: 30px;
+	text-align: left;
+}
+
+
+.flex-item ul li {
+	text-align: left;
+}
